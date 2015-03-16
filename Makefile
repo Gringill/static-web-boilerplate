@@ -5,7 +5,7 @@ install:
 
 
 reset:
-	rm -ifr public/media/* public/css/* public/font/* public/js/* public/*.html
+	rm -ir public/media/* public/css/* public/font/* public/js/* public/*.html
 
 
 coffee:
