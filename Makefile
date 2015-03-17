@@ -31,4 +31,4 @@ serve:
 
 
 watch: serve
-	$(BINS)/watch "make build" src
+	$(BINS)/watch "make -j4 build" src
