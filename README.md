@@ -59,7 +59,7 @@ Use `make watch` to  start a local webserver and watch the files in the `/src` f
 
 * `make reset` to reset the `/public` folder to its original state.
 * `make build` to manually trigger the build process.
-* `make server` to start the local webserver.
+* `make serve` to start the local webserver.
 * `make install` to install the dependencies.
 
 
