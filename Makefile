@@ -19,7 +19,7 @@ stylus:
 jade:
 	@# jade files starting with an underscore "_" are considered private.
 	@# They won't be compiled. Use this for includes and extends.
-	$(BINS)/jade -m src/[^_]*.jade -o public/
+	$(BINS)/jade -P -m src/[^_]*.jade -o public/
 
 
 build: jade coffee stylus

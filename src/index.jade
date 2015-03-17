@@ -1,5 +1,24 @@
 extends _base.jade
 
+
+block title
+    | You need to set your page title here
+
+
+block meta
+    link(rel="canonical", href="<Put this page URL you want google to index here>")
+    // Put CSS here
+    link(rel="stylesheet", href="/css/index.css")
+
+
+block scripts
+    script.
+        console.log('hey you!')
+
+
 block content
+    // Use http://schema.org tags to annotate what your page is about,
+    // Google+, Google Search and other search engines use this to know
+    // what your page is about.
     h1 Hello World!
     include:md ../README.md
