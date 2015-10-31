@@ -19,7 +19,7 @@ make install
 
 ## Getting Started
 
-Use `make watch` to  start a local webserver and watch the files in the `/src` folder. When any change is seen, the build process (`make build`) will be triggred.
+Use `make watch` to  start a local webserver and watch the files in the `/src` folder. When any change is seen, the build process (`make build`) will be triggered.
 
 ## Folder structure
 
@@ -66,7 +66,7 @@ Use `make watch` to  start a local webserver and watch the files in the `/src` f
 ## TODO
 
 * Find a fast live reload equivalent
-* Use `make` features to run taks in parallel when possible
+* Use `make` features to run tasks in parallel when possible
 * Ensure only changed files are being built at each change
 * Minify the files in the public folder
 * Add a `make deploy` target to deploy to an S3 bucket or via SSH.
